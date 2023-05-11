@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "playwright test",
+    "test:h": "playwright test --headed",
+    "test:d": "playwright test --debug",
+    "test:t": "playwright test --trace on"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fabrizio Nucci",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.33.0"
